@@ -1,0 +1,35 @@
+<!-- 
+ <div class="banner-wrapper banner">
+   <div class="container-fluid">
+      <div class="row justify-content-center align-items-center">
+          <div class="col-8">
+              <form>
+                <div class="row ">
+                    <input class="search-job col-8" type="search"  placeholder="Are you look for job? Search here...">
+                    <button class="col-4 home-search-btn btn-outline-dark" type="submit">Search</button>
+                </div>
+              </form>
+          </div>
+        </div>
+   </div>
+ </div>
+
+
+ <div class="container">
+   <div class="row">
+     <div class="col-md-4 ">
+       <div class="row">
+          <div class="col-4"> 
+              <img src="http://placehold.it/100x100?text=Logo">
+             </div>
+             <div class="col-8">
+              <p>Company Name</p>
+              <p>Job title</p>
+              <p>Deadline</p>
+             </div>
+
+       </div>
+      
+     </div>
+   </div>
+ </div> -->

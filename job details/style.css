@@ -1,0 +1,196 @@
+/* .container-fluid{
+margin-top: 20px; 
+}*/ 
+.img-fluid  img{
+    border: 2px solid red;
+    margin-top: 19%;
+    
+    
+    
+}
+.img-fluid{
+    width: 1318px;
+height: 400px;
+margin-top: 20px;
+margin-left: 15px;
+padding-left: 15px;
+}
+.content2{ 
+width: 738px;
+height: 623px;
+margin-right: 15px;
+margin-top: 19px;
+margin-left: 166px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+.content1{
+width: 407px;
+height: 421px;
+
+margin-left: 15px;
+margin-top: 19px;
+background:#FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.content1 h1{
+    text-align: center;
+    font-size: 24px;
+}
+.content1 ul li{
+    
+    
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+margin: 40px;
+
+color: #000000;
+}
+
+.content2 h2{
+    text-align: center;
+    font-size: 24px;
+}
+.content2 ul li{
+    
+    
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+margin: 30px;
+
+color: #000000;
+}
+/* .container-fluid .row .col-md-4{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    width: 400px;
+height: 118.39px;
+} */
+.jobs h3{
+width: 291px;
+height: 46.37px;
+
+margin-left: 50px;
+text-align: center;
+background: #C4C4C4;
+}
+.jobd{
+   
+width: 738px;
+height: 557px;
+margin-left: 170px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.lists{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 400px;
+    margin-left: 15px;
+    
+    height: 118.39px;
+
+}
+.jobreq h3{
+    margin-top: 40px;
+    width: 291px;
+height: 46.37px;
+margin-left: 50px;
+
+text-align: center;
+background: #C4C4C4;
+}
+.jobr{
+    width: 738px;
+height: 557px;
+margin-left: 170px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.jobr h4{
+    width: 219px;
+height: 29px;
+
+
+font-family: Roboto;
+
+font-size: 24px;
+
+text-align: center;
+background: #C4C4C4;
+margin-left: 235px;
+}
+.jobr ol{
+ width: 648px;
+height: 372px;
+
+
+font-family: Roboto;
+font-size: 22px;
+margin-top: 20px;
+
+color: #000000;
+}
+
+.jobd{
+    width: 738px;
+height: 557px;
+margin-left: 170px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.jobd h4{
+    width: 219px;
+height: 29px;
+
+
+font-family: Roboto;
+
+font-size: 24px;
+
+text-align: center;
+background: #C4C4C4;
+margin-left: 235px;
+}
+.jobd ol{
+ width: 648px;
+height: 372px;
+
+
+font-family: Roboto;
+font-size: 22px;
+margin-top: 20px;
+
+color: #000000;
+}
+.btn{
+    width: 185px;
+height: 60px;
+
+
+background: rgb(82, 67, 67);
+margin-top: 40px;
+margin-left: 705px;
+
+
+}
