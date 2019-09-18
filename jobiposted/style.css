@@ -1,0 +1,25 @@
+.img1{
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+}
+
+.img1 .bimg{
+    width: 100%;
+    height: 400px;
+
+
+}
+ .img1 .limg{
+
+    position: absolute;
+    border: 2px solid red;
+    margin-bottom: 40px;
+    margin-top: 273px;
+    margin-left: 14px;
+    
+ 
+}
+.content-wrapper{
+    margin-top: 40px;
+}
