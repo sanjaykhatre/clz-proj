@@ -110,6 +110,17 @@ h5 {
   border-radius: 5px;
 }
 
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
 .logo-box {
   width: 200px;
   height: 90px;
@@ -265,5 +276,33 @@ h5 {
   .job-applied-header {
     margin-top: 50px;
   }
+
+}
+.card-title .dot {
+  
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: #1771c4;
+  border-radius: 50%;
+  left: -28px;
+  
+}
+.card-title .a{
+
+width: 94px;
+height: 21px;
+
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+
+
+color: #000000;
 
 }

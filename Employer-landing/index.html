@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
+		integrity="sha256-piqEf7Ap7CMps8krDQsSOTZgF+MU/0MPyPW2enj5I40=" crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link rel="stylesheet" href="style.css">
+
+	<title>Employer landing page</title>
+	<style>
+		.top-bar {
+			margin: 20px 0px;
+			padding: 10px 0px;
+		}
+
+		.jobseeker-name>p {
+			position: relative;
+			margin-top: 28px;
+			font-size: 18px;
+		}
+
+		.jobseeker-name>p::before {
+			position: absolute;
+			content: '';
+			width: 20px;
+			height: 20px;
+			background-color: #1771c4;
+			border-radius: 50%;
+			left: -28px;
+			margin-top: 2px;
+		}
+
+		.company-cover {
+			position: relative;
+			height: 400px;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		.company-logo-wrap {
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			bottom: -30px;
+			left: 43px;
+			z-index: 20;
+		}
+
+		.company-logo-wrap img {
+			max-width: 200px;
+			border: 1px solid #1771c4;
+		}
+		.company-content-wrapper{
+			margin-top: 60px;
+			margin-bottom: 40px;
+		}
+		.post-job-btn{
+			padding: 10px 15px;
+			width: 150px;
+			text-align: center;
+			border: 0;
+		}
+		.company-content-wrapper .form-control{
+		box-shadow: none;
+		}
+		.company-content-wrapper textarea {
+			direction: rtl;
+			text-align: left;
+			resize: none;
+		}
+
+		@media (max-width: 768px) {
+			.company-logo-wrap{
+				width: 100%;
+				text-align: center;
+				left: initial;
+			}
+			.company-logo-wrap img{
+				width: 200px;
+			}
+			.company-content-wrapper{
+				padding: 0px 10px;
+			}
+			.company-cover{
+				background-position: 87% 50%;
+			}
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<div class="global-container">
+
+		<section class="top-bar">
+			<div class="Container">
+				<div class="row no-gutters justify-content-between pr-3 pr-md-0">
+					<div class="col-3">
+						<div class="logo-box float-left">
+							<img class="card-img-top" src="assets/logo.png" alt="Card image" style="width:100%">
+						</div>
+					</div>
+					<div class="col-4 ">
+						<div class="jobseeker-name text-right">
+							<p class="d-inline-block">Hello, Company</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="company-cover"
+			style="background-image: url('./assets/cover.jpg');">
+			<div class="company-logo-wrap">
+				<img src="./assets/company-logo.png">
+			</div>
+		</section>
+
+		<section class="company-content-wrapper ">
+			<div class="Container">
+				<div class="row no-gutters justify-content-between">
+					<div class="col-md-3">
+						<div class="profile-pic" id="profilePic">
+							<div class="jobseeker-nav-pill"><a href="">Edit profile</a></div>
+							<div class="jobseeker-nav-pill"><a href="">Jobs I have posted</a></div>
+							<div class="jobseeker-nav-pill active"><a href="">Post a new job</a></div>
+						</div>
+					</div>
+					<div class="col-sm-8">
+						<div class="job-applied-wrapper">
+
+							<div class="job-applied-header">
+								<div class="job-applied-title xl-thumb primary-color">
+									<p class="m-0">Jobseeker applied for my jobs</p>
+								</div>
+							</div>
+							<div class="job-applied-body">
+								<div class="job-box">
+									<div class="card">
+										<div class="card-body">
+												<div class="card-title job-title">
+												
+														<a href="" class="d-flex float-right"> View profile	</a>
+														<div class="dot d-flex float-right "></div>
+														<h5>Web Developer</h5>
+													</div>
+										
+											<div class="card-text job-brief">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+													eiusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+													minim veniam, iusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+													minim veniam,</p>
+											</div>
+											<div class="job-box-footer clearfix">
+												<div class="apply-btn float-left">
+													<a href="">Web Developer</a>
+												</div>
+												<div class="apply-btn float-right">
+													<a href="">Download CV</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="job-box">
+									<div class="card">
+										<div class="card-body">
+												<div class="card-title job-title">
+												
+														<a href="" class="d-flex float-right"> View profile	</a>
+														<div class="dot d-flex float-right "></div>
+														<h5>Web Developer</h5>
+													</div>
+											
+											<div class="card-text job-brief">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+													eiusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+													minim veniam, iusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+													minim veniam,</p>
+											</div>
+											<div class="job-box-footer clearfix">
+												<div class="apply-btn float-left">
+													<a href="">Web Developer</a>
+												</div>
+												<div class="apply-btn float-right">
+													<a href="">Download CV</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="job-box">
+									<div class="card">
+										<div class="card-body">
+												<div class="card-title job-title">
+												
+														<a href="" class="d-flex float-right"> View profile	</a>
+														<div class="dot d-flex float-right "></div>
+														<h5>Web Developer</h5>
+													</div>
+											<div class="card-text job-brief">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+													eiusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+													minim veniam, iusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+													minim veniam,</p>
+											</div>
+											<div class="job-box-footer clearfix">
+												<div class="apply-btn float-left">
+													<a href="">Web Developer</a>
+												</div>
+												<div class="apply-btn float-right">
+													<a href="">Download CV</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="job-box">
+									<div class="card">
+										<div class="card-body">
+												<div class="card-title job-title">
+												
+														<a href="" class="d-flex float-right"> View profile	</a>
+														<div class="dot d-flex float-right "></div>
+														<h5>Web Developer</h5>
+													</div>
+										
+											<div class="card-text job-brief">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+													eiusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+													minim veniam, iusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+													minim veniam,</p>
+											</div>
+											<div class="job-box-footer clearfix">
+												<div class="apply-btn float-left">
+													<a href="">Web Developer</a>
+												</div>
+												<div class="apply-btn float-right">
+													<a href="">Download CV</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="job-box">
+									<div class="card">
+										<div class="card-body">
+												<div class="card-title job-title">
+												
+														<a href="" class="d-flex float-right"> View profile	</a>
+														<div class="dot d-flex float-right "></div>
+														<h5>Web Developer</h5>
+													</div>
+											<div class="card-text job-brief">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+													eiusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+													minim veniam, iusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+													minim veniam,</p>
+											</div>
+											<div class="job-box-footer clearfix">
+												<div class="apply-btn float-left">
+													<a href="">Web Developer</a>
+												</div>
+												<div class="apply-btn float-right">
+													<a href="">Download CV</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="job-box">
+									<div class="card">
+										<div class="card-body">
+											<div class="card-title job-title">
+												
+												<a href="" class="d-flex float-right"> View profile	</a>
+												<div class="dot d-flex float-right "></div>
+												<h5>Web Developer</h5>
+											</div>
+										
+											
+											<div class="card-text job-brief">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+													eiusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+													minim veniam, iusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+													minim veniam,</p>
+											</div>
+											<div class="job-box-footer clearfix">
+												<div class="apply-btn float-left">
+													<a href="">Web Developer</a>
+												</div>
+												<div class="apply-btn float-right">
+													<a href="">Download CV</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+		</script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+		</script>
+
+</body>
+
+</html>
