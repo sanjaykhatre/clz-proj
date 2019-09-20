@@ -35,6 +35,34 @@
 			left: -28px;
 			margin-top: 2px;
 		}
+		.company-cover {
+			position: relative;
+			height: 400px;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		.company-logo-wrap {
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			bottom: -30px;
+			left: 43px;
+			z-index: 20;
+		}
+		.company-logo-wrap img {
+			max-width: 200px;
+			border: 1px solid #1771c4;
+		}
+		@media (max-width: 768px) {
+			.company-logo-wrap{
+				width: 100%;
+				text-align: center;
+				left: initial;
+			}
+			.company-logo-wrap img{
+				width: 200px;
+			}
 	</style>
 </head>
 
@@ -60,11 +88,13 @@
 		</section>
 
 
-		<div class="img1">
-			<div class="bimg"
-			  style="background-image: url(http://placehold.it/1280x400?text=image); background-size: 100% 100%; ">
-			  <img class="limg" src="http://placehold.it/155x142?text=Logo">
+		<section class="company-cover"
+			style="background-image: url('./assets/cover.jpg');">
+			<div class="company-logo-wrap">
+				<img src="./assets/company-logo.png">
 			</div>
+		</section>
+
 		  </div>
 
 		  
@@ -86,102 +116,65 @@
 
 							<div class="job-applied-header">
 								<div class="job-applied-title xl-thumb primary-color">
-									<p class="m-0">Post a new job</p>
+									<p class="m-0">	Edit my posted job</p>
 								</div>
 							</div>
 							
 						<div class="job-applied-body">
-								<div class="job-box">
-									<div class="card">
-									<h5>Web Developer</h5>
+							<div class="form-group my-30">
+									<input type="text" placeholder="Web Developer" class="form-control p-4"
+										id="form-email">
 								</div>
-
-
-							</div>
-						</div>
-
-						<div class="job-applied-body">
-								<div class="job-box">
-									<div class="card">
-									<h5>Kathmandu</h5>
+								<div class="form-group my-30">
+									<input type="text" placeholder="ktm" class="form-control p-4"
+										id="form-email">
 								</div>
-
-
-							</div>
-						</div>
-						<div class="job-applied-body">
-								<div class="job-box">
-									<div class="card">
-									<h5>1 year</h5>
+								<div class="form-group my-30">
+									<input type="text" placeholder="2 years" class="form-control p-4"
+										id="form-email">
 								</div>
-
-
-							</div>
-						</div>
-						<div class="job-applied-body">
-								<div class="job-box">
-									<div class="card">
-									<h5>Web Development</h5>
+								<div class="form-group my-30">
+									<input type="text" placeholder="Web development" class="form-control p-4"
+										id="form-email">
 								</div>
-
-
-							</div>
-						</div><div class="job-applied-body">
-								<div class="job-box">
-									<div class="card">
-									<h5>Full Time</h5>
+								<div class="form-group my-30">
+									<input type="text" placeholder="Full time" class="form-control p-4"
+										id="form-email">
 								</div>
-
-
-							</div>
-						</div>
-						<div class="job-applied-body">
-								<div class="job-box">
-									<div class="card">
-									<h5>Entry Level</h5>
+								<div class="form-group my-30">
+									<input type="text" placeholder="Entry level" class="form-control p-4"
+										id="form-email">
 								</div>
-
-
-							</div>
-						</div>
-						<div class="job-applied-body">
-								<div class="job-box">
-									<div class="card">
-									<h5>100000$</h5>
+								<div class="form-group my-30">
+									<input type="text" placeholder="65000 $" class="form-control p-4"
+										id="form-email">
 								</div>
-
-
-							</div>
-						</div>
-						<div class="job-applied-body">
-								<div class="job-box">
-									<div class="card">
-									<h5>BSC.csit</h5>
+								<div class="form-group my-30">
+									<input type="text" placeholder="Bsc.csit" class="form-control p-4"
+										id="form-email">
 								</div>
-
-
-							</div>
-						</div>
-						<div class="job-applied-body">
-								<div class="job-box">
-									<div class="card">
-									<h5>2019-7-9</h5>
+				
+								<div class="form-group my-30">
+									<input type="text" placeholder="2019-7-8" class="form-control  p-4"
+										id="form-pass">
 								</div>
-
-
+								<div class="form-group my-30">
+									<textarea name="" id="" cols="30" rows="15" class="form-control br-4">
+									Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, libero asperiores odit sequi aliquid, dolorum impedit unde delectus reiciendis, quis ipsa eveniet illum veritatis quas. Sunt ut ipsum deserunt excepturi?
+									</textarea>
+								</div>
+								<div class="form-group my-30">
+									<textarea name="" id="" cols="30" rows="15" class="form-control br-4" > 
+									
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti veritatis totam saepe commodi id beatae, vero tempore distinctio exercitationem nam iure necessitatibus natus? Eligendi facilis rerum maiores non fugiat optio?
+								
+									</textarea>
+								</div>
+								<div class="form-group">
+									<button type="submit" class="post-job-btn b-0 px-3 primary-color">Edit job</button>
+								</div>
 							</div>
-						</div>
-						<div class="job-applied-body">
-								<div class="job-box">
-									<div class="card">
-										<div class="description">
-											<ol>
-												<li>Lorem ipsum dolor sit amet.</li>
-												<li>Lorem ipsum dolor sit amet.</li>
-												<li>Lorem ipsum dolor sit amet.</li>
-											</ol>
 
-										</div>
 									
 
 								</div>
@@ -189,29 +182,7 @@
 
 							</div>
 						</div>
-
-						<div class="job-applied-body">
-								<div class="job-box">
-									<div class="card">
-										<div class="description">
-											<ol>
-												<li>Lorem ipsum dolor sit amet.</li>
-												<li>Lorem ipsum dolor sit amet.</li>
-												<li>Lorem ipsum dolor sit amet.</li>
-											</ol>
-
-										</div>
-									
-
-								</div>
-
-
-							</div>
-						</div>
-						<div class="apply">
-							<button type="submit">Edit job</button>
-
-						</div>
+						
 
 
 					</div>

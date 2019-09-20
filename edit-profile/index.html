@@ -35,6 +35,34 @@
 			left: -28px;
 			margin-top: 2px;
 		}
+		.company-cover {
+			position: relative;
+			height: 400px;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		.company-logo-wrap {
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			bottom: -30px;
+			left: 43px;
+			z-index: 20;
+		}
+		.company-logo-wrap img {
+			max-width: 200px;
+			border: 1px solid #1771c4;
+		}
+		@media (max-width: 768px) {
+			.company-logo-wrap{
+				width: 100%;
+				text-align: center;
+				left: initial;
+			}
+			.company-logo-wrap img{
+				width: 200px;
+			}
 	</style>
 </head>
 
@@ -60,12 +88,12 @@
 		</section>
 
 
-		<div class="img1">
-			<div class="bimg"
-			  style="background-image: url(http://placehold.it/1280x400?text=image); background-size: 100% 100%; ">
-			  <img class="limg" src="http://placehold.it/155x142?text=Logo">
+		<section class="company-cover"
+			style="background-image: url('./assets/cover.jpg');">
+			<div class="company-logo-wrap">
+				<img src="./assets/company-logo.png">
 			</div>
-		  </div>
+		</section>
 
 		  
 		<section class="content-wrapper">
@@ -91,50 +119,47 @@
 							</div>
 							
 						<div class="job-applied-body">
-								<div class="job-box">
-									<div class="card">
-									<h5>Vertex Web surf</h5>
+							<div class="form-group my-30">
+									<input type="text" placeholder="vertex web surf" class="form-control p-4"
+										id="form-email">
 								</div>
 
+							</div>
+							<div class="job-applied-body">
+							<div class="form-group my-30">
+									<input type="text" placeholder="IT" class="form-control p-4"
+										id="form-email">
+								</div>
 
 							</div>
-						</div>
+							<div class="job-applied-body">
+							<div class="form-group my-30">
+									<input type="text" placeholder="ktm" class="form-control p-4"
+										id="form-email">
+								</div>
 
+							</div>
+							<div class="job-applied-body">
+							<div class="form-group my-30">
+									<input type="text" placeholder="Www.vertec.com" class="form-control p-4"
+										id="form-email">
+								</div>
 
+							</div>
+							<div class="job-applied-body">
+							<div class="form-group my-30">
+									<input type="number" placeholder="0123456" class="form-control p-4"
+										id="form-email">
+								</div>
+
+							</div>
 							
+
 						
-						<div class="job-applied-body">
-								<div class="job-box">
-									<div class="card">
-									<h5>Information and Technology</h5>
+
+							<div class="form-group">
+									<button type="submit" class="post-job-btn b-0 px-3 primary-color">Update</button>
 								</div>
-
-
-							</div>
-						</div><div class="job-applied-body">
-								<div class="job-box">
-									<div class="card">
-									<h5>Kathmandu</h5>
-								</div>
-
-
-							</div>
-						</div>
-						<div class="job-applied-body">
-								<div class="job-box">
-									<div class="card">
-									<h5>0123456</h5>
-								</div>
-
-
-							</div>
-						</div>
-					
-						
-						<div class="apply">
-							<button type="submit">Update</button>
-
-						</div>
 
 
 					</div>

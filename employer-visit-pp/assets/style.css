@@ -1,0 +1,269 @@
+body {
+  font-size: 100%;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+.global-container {
+  max-width: 1366px;
+  margin: auto;
+}
+
+.Container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+/* for samller devices  */
+h1 {
+  font-size: 2em;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 1.625em;
+  line-height: 1.15384615;
+}
+
+h3 {
+  font-size: 1.375em;
+  line-height: 1.13636364;
+}
+
+h5 {
+  font-size: 1.125em;
+  line-height: 1.11111111;
+}
+
+/* for more than 732 px devices */
+@media (min-width: 43.75em) {
+  h1 {
+    font-size: 2.5em;
+    line-height: 1.125;
+  }
+
+  h2 {
+    font-size: 2em;
+    line-height: 1.25;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+
+  h5 {
+    line-height: 1.22222222;
+  }
+}
+
+/* //more than 900px devices */
+@media (min-width: 56.25em) {
+  h1 {
+    font-size: 3em;
+    line-height: 1.05;
+  }
+
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.25;
+  }
+
+  h3 {
+    font-size: 1.75em;
+    line-height: 1.25;
+  }
+
+  h4 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+
+  h5 {
+    font-size: 1.25em;
+    line-height: 1.25;
+  }
+
+  h6 {
+    font-size: 1.125em;
+    line-height: 1.25;
+  }
+}
+
+.primary-color {
+  background: #1771c4 !important;
+  color: #fff !important;
+}
+
+.secondary-color {
+  background: #1771c4 !important;
+  color: #fff !important;
+}
+
+.main-text {
+  color: #1771c4 !important;
+  font-size: 28px !important;
+}
+
+.br-5 {
+  border-radius: 5px;
+}
+
+.logo-box {
+  width: 200px;
+  height: 90px;
+  border-radius: 5px;
+}
+
+.logo-box h2 {
+  margin-top: 24px;
+}
+
+.profile-pic {
+  width: 200px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+
+
+.profile-pic .img-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+  display: none;
+
+}
+
+.profile-pic .img-text a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #e97e08;
+  position: absolute;
+  left: 45px;
+  bottom: 7px;
+}
+
+.info-container p {
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+.jobseeker-nav-pill {
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  width: 200px;
+  outline: 1px solid #000;
+  border: 0;
+  margin: 10px 0;
+}
+
+.jobseeker-nav-pill a {
+  text-decoration: none;
+  color: #000;
+}
+
+.jobseeker-nav-pill.active {
+  background-color: #1771c4;
+  outline: 0;
+}
+
+.jobseeker-nav-pill.active a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.job-box {
+  margin-bottom: 25px;
+}
+
+.job-applied-header {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.job-applied-title {
+  padding: 10px;
+  text-align: center;
+  background-color: #C1C1C1;
+  width: 250px;
+}
+
+.job-title h5 {
+  color: #1771c4;
+}
+
+.company-title h6 {
+  color: #676767;
+}
+
+.job-brief {
+  color: #3C5162;
+
+}
+
+.job-brief p:last-child {
+  margin: 0;
+}
+
+.deadline p {
+  padding: 8px 5px;
+  color: #e97e08;
+  margin: 0;
+}
+
+.deadline i {
+  margin-right: 10px;
+  color: #1771c4;
+  font-size: 18px;
+}
+
+.deadline span {
+  margin-left: 6px;
+  color: #1771c4;
+}
+
+.apply-btn {
+  padding: 8px 5px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #1771c4;
+  color: #fff;
+  width: 120px;
+}
+
+.apply-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.card-text {
+  padding: 0 0 10px;
+}
+
+.panel-body {
+  margin: 5px;
+}
+
+/* media queires for smaller devices */
+@media (max-width: 767px) {
+  .profile-pic {
+    margin: auto;
+  }
+
+  .jobseeker-nav-pill {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .job-applied-header {
+    margin-top: 50px;
+  }
+
+}
