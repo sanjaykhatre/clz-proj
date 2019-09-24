@@ -1,135 +1,22 @@
 .ad{
-    background-color: #212529;
+    background-color:wheat;
     text-align: center;
-    color: white;
    }
 
-   .container{
-       max-width: 1280px;
-       margin: auto;
-   }
+.navbar{
    
-   .navbar-brand{
-       margin-right: 100%;
-
-   }
-   .nav-item{
-       margin-left: 50px;
-       
-   }
-   .banner{
-    background-color: antiquewhite;
-    width: 100%;
-    height: 400px;
-    margin-top: 25px;
-    margin-bottom: 50px;
-   }
-   .search{
-       text-align: center;
-   }
-   .search-job{
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-   padding: 10px 10px;
-   }
-   .home-search-btn{
-    padding: 10px 10px;
-    color:white;
-    border: 1px solid green;
-    box-sizing: border-box;
-    
-   }
-   h4{
-       background-color: #000000;
-     
-       text-align: center !important;
-       color:white;
-       margin-left: 40%;
-       margin-right: 35%;
-       width: 291px;
-        height: 47px;
-        margin-top: 2%;
-
-   }
+    margin-top:1%; 
+}
+.jumbotron{
   
-
-   .job{
-    width: 100%;
-    height: 730px;
-   }
-.container1{
-   
-    display: flex;
-    background-color: antiquewhite;
-    flex-wrap: wrap;
-}
-.card{
-    position: relative;
-    width: 400px;
-    height: 120px;
-    margin: 10px;
-    box-sizing: border-box;
-
+    margin-top:1%;  
+    width: auto;
+    height: 400px;
+    }
+    .nav-item{
+        margin-left: 50px;
+    }
+    .form-inline input{
+        width:400px !important;
+    }
     
-}
-.card .imgbx{
-    position: absolute;
-    width: 142.86px;
-    height: 120px;
-
-
-
-}
-.card .imgbx img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-}
-.card .details{
-    position: absolute;
-    right: 0;
-    width: 50%;
-    height: 10%;
-    box-sizing: border-box;
-
-}
-.hotjobs{
-    width: 100%;
-    height: 730px;
-    
-
-
-
-}
-
-
-
-.top-navbar ul{
-    list-style : none;
-    margin: 0;
-    padding : 0;
-}
-
-.top-navbar ul li {
-    display: inline-block;
-    padding: 5px 0px 5px 8px;
-}
-
-/* .top-navbar ul li a{
-    
-} */
-
-.top-navbar ul li a:hover{
-    text-decoration: none;
-    color: #c4c4c4;
-}
-.top-navbar ul li:first-child a{
-    border-right: 1px solid #000;
-    padding-right: 10px;
-    
-}
